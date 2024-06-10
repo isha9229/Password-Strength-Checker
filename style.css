@@ -85,9 +85,9 @@ button {
 
 @media (max-width: 600px) {
   .input-box {
-    width: 95%;
-    margin: 50px 10px; /* Adjust the margin for smaller screens */
-    
+    width: 90%; /* Adjusted width for smaller screens */
+    margin: 50px auto; /* Center the box horizontally and add space on the top and bottom */
+    padding: 20px; /* Adjusted padding */
   }
 
   .input-box input {
